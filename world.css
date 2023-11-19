@@ -1,1 +1,94 @@
 /* Add your own styles */
+
+body{
+    background-color: gainsboro;
+}
+header{
+    background-color: black;
+    padding: 36px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+/* Add this CSS in your stylesheet or in a style tag in the head of your HTML */
+
+.world-img img {
+    max-width: 200px; /* Set the maximum width to 100% of the parent container */
+
+    margin: 0 auto;  /* Center the image horizontally */
+    border-radius: 50%;
+  }
+  .world-img{
+    margin-right: 20px;
+  }
+
+
+  #controls{
+    margin-top: 48px;
+    display: flex;
+    /* flex-direction: column; */
+    justify-content: center;
+  }
+  .buttons{
+    display: flex;
+    /* flex-direction: column; */
+    justify-content: center;
+    margin: 16px 0px;
+  }
+
+  input {
+    width: 500px;
+    height: 48px;
+    border: none;
+    border-radius: 5px;
+    padding: 12px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Adjust the values as needed */
+  }
+
+  #result{
+    display: flex;
+    justify-content: center;
+  }
+
+  th {
+    background-color: white;
+    padding: 10px;
+    text-align: left;
+  }
+  td {
+    border: 1px solid #ddd; 
+    padding: 10px;
+  }
+  
+  /* Alternate row colors */
+  tr:nth-child(even) {
+    background-color: #e6f7ff; 
+  }
+  
+  tr:nth-child(odd) {
+    background-color: #fff; 
+  }
+
+  #lookup{
+    padding: 8px 24px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    margin-right: 16px;
+    background-color: rgb(3, 171, 115);
+    font-weight: 700;
+    color: white;
+  }
+  #lookup_city{
+    padding: 8px 24px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    margin-right: 16px;
+    background-color: rgb(2, 173, 173);
+    font-weight: 700;
+    color: white;
+  }
